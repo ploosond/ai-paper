@@ -1,0 +1,129 @@
+\begin{thebibliography}{}
+
+\bibitem[Bengio et~al., 2013]{bengio2013representation}
+Bengio, Y., Courville, A., and Vincent, P. (2013).
+\newblock Representation learning: A review and new perspectives.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  35(8):1798--1828.
+
+\bibitem[Brockman et~al., 2016]{brockman2016openai}
+Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang,
+  J., and Zaremba, W. (2016).
+\newblock Openai gym.
+\newblock {\em arXiv preprint arXiv:1606.01540}.
+
+\bibitem[Deshai, 2017]{Deshai_2017}
+Deshai, R. (2017).
+\newblock Artificial intelligence (ai).
+
+\bibitem[Espi{\'e} et~al., 2005]{espie2005torcs}
+Espi{\'e}, E., Guionneau, C., Wymann, B., Dimitrakakis, C., Coulom, R., and
+  Sumner, A. (2005).
+\newblock Torcs, the open racing car simulator.
+\newblock Technical report.
+
+\bibitem[Gao et~al., 2018]{gao2018reinforcement}
+Gao, Y., Xu, H., Lin, J., Yu, F., Levine, S., and Darrell, T. (2018).
+\newblock Reinforcement learning from imperfect demonstrations.
+\newblock {\em arXiv preprint arXiv:1802.05313}.
+
+\bibitem[Han et~al., 2022]{han2022data}
+Han, J., Pei, J., and Tong, H. (2022).
+\newblock {\em Data mining: concepts and techniques}.
+\newblock Morgan kaufmann.
+
+\bibitem[Jiang et~al., 2018]{jiang2018feedback}
+Jiang, D., Ekwedike, E., and Liu, H. (2018).
+\newblock Feedback-based tree search for reinforcement learning.
+\newblock In {\em International conference on machine learning}, pages
+  2284--2293. PMLR.
+
+\bibitem[Johnson et~al., 2016]{johnson2016malmo}
+Johnson, M., Hofmann, K., Hutton, T., and Bignell, D. (2016).
+\newblock The malmo platform for artificial intelligence experimentation.
+\newblock In {\em Ijcai}, pages 4246--4247.
+
+\bibitem[Kaelbling et~al., 1996]{kaelbling1996reinforcement}
+Kaelbling, L.~P., Littman, M.~L., and Moore, A.~W. (1996).
+\newblock Reinforcement learning: A survey.
+\newblock {\em Journal of artificial intelligence research}, 4:237--285.
+
+\bibitem[Kempka et~al., 2016]{kempka2016vizdoom}
+Kempka, M., Wydmuch, M., Runc, G., Toczek, J., and Ja{\'s}kowski, W. (2016).
+\newblock Vizdoom: A doom-based ai research platform for visual reinforcement
+  learning.
+\newblock In {\em 2016 IEEE conference on computational intelligence and games
+  (CIG)}, pages 1--8. IEEE.
+
+\bibitem[Li, 2017]{li2017deep}
+Li, Y. (2017).
+\newblock Deep reinforcement learning: An overview.
+\newblock {\em arXiv preprint arXiv:1701.07274}.
+
+\bibitem[Mankowitz et~al., 2018]{mankowitz2018unicorn}
+Mankowitz, D.~J., {\v{Z}}{\'\i}dek, A., Barreto, A., Horgan, D., Hessel, M.,
+  Quan, J., Oh, J., van Hasselt, H., Silver, D., and Schaul, T. (2018).
+\newblock Unicorn: Continual learning with a universal, off-policy agent.
+\newblock {\em arXiv preprint arXiv:1802.08294}.
+
+\bibitem[Mnih et~al., 2015]{mnih2015human}
+Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare,
+  M.~G., Graves, A., Riedmiller, M., Fidjeland, A.~K., Ostrovski, G., et~al.
+  (2015).
+\newblock Human-level control through deep reinforcement learning.
+\newblock {\em nature}, 518(7540):529--533.
+
+\bibitem[Mohammed et~al., 2016]{mohammed2016machine}
+Mohammed, M., Khan, M.~B., and Bashier, E. B.~M. (2016).
+\newblock {\em Machine learning: algorithms and applications}.
+\newblock Crc Press.
+
+\bibitem[Sarker et~al., 2020]{sarker2020cybersecurity}
+Sarker, I.~H., Kayes, A., Badsha, S., Alqahtani, H., Watters, P., and Ng, A.
+  (2020).
+\newblock Cybersecurity data science: an overview from machine learning
+  perspective.
+\newblock {\em Journal of Big data}, 7:1--29.
+
+\bibitem[Schell, 2008]{schell2008art}
+Schell, J. (2008).
+\newblock {\em The Art of Game Design: A book of lenses}.
+\newblock CRC press.
+
+\bibitem[Silver et~al., 2016]{silver2016mastering}
+Silver, D., Huang, A., Maddison, C.~J., Guez, A., Sifre, L., Van Den~Driessche,
+  G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M.,
+  et~al. (2016).
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock {\em nature}, 529(7587):484--489.
+
+\bibitem[Sutton and Barto, 2018]{sutton2018reinforcement}
+Sutton, R.~S. and Barto, A.~G. (2018).
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press.
+
+\bibitem[Thakur and Konde, 2021]{thakur2021fundamentals}
+Thakur, A. and Konde, A. (2021).
+\newblock Fundamentals of neural networks.
+\newblock {\em International Journal for Research in Applied Science and
+  Engineering Technology}, 9:407--26.
+
+\bibitem[Torrado et~al., 2018]{torrado2018deep}
+Torrado, R.~R., Bontrager, P., Togelius, J., Liu, J., and Perez-Liebana, D.
+  (2018).
+\newblock Deep reinforcement learning for general video game ai.
+\newblock In {\em 2018 IEEE Conference on Computational Intelligence and Games
+  (CIG)}, pages 1--8. IEEE.
+
+\bibitem[Varghese and Mahmoud, 2021]{varghese2021hybrid}
+Varghese, N.~V. and Mahmoud, Q.~H. (2021).
+\newblock A hybrid multi-task learning approach for optimizing deep
+  reinforcement learning agents.
+\newblock {\em IEEE Access}, 9:44681--44703.
+
+\bibitem[Yannakakis and Togelius, 2018]{yannakakis2018artificial}
+Yannakakis, G.~N. and Togelius, J. (2018).
+\newblock {\em Artificial intelligence and games}, volume~2.
+\newblock Springer.
+
+\end{thebibliography}

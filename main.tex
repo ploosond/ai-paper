@@ -1,5 +1,6 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx}
+\usepackage{tabularx}
 \providecommand{\keywords}[1] {
 \small \textbf{\textit{Keywords---}} #1
 }
@@ -16,7 +17,13 @@ The abstract section provides a summary of the topic, which is \textbf{how can d
 \end{abstract}
 
 \keywords {The keywords are the important words found in the research papers, which help other researchers find your paper when researching the relevant topic.}
- 
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
 \section{INTRODUCTION}
 
 Artificial Intelligence (AI) has seen immense progress in recent years. It is both a thriving research field featuring an increasing number of important research areas and a core technology for an increasing number of application areas. In addition to algorithmic innovations, the rapid progress in AI is often attributed to increasing computational power due to hardware advancements. The success stories of AI can be experienced in our daily lives through its many practical applications. AI advances have enabled a better understanding of images and speech, emotion detection, self-driving cars, web searching, AI-assisted creative design, and game-playing,
@@ -145,30 +152,86 @@ DRL has gained significant traction in recent years due to its remarkable abilit
 
 
 \begin{table}
-\centering
-\begin{tabular}{|c|c|} \hline
-    \textbf{Domains}& \textbf{Application}\\ \hline 
-         Computer systems& Resources management, security\\ \hline 
-         Education& Educational games, recommendation, estimation\\ \hline 
-         Transportation&Traffic control\\ \hline 
-         Games Development& Board games, card games, video games\\ \hline 
-         Robotics& Sim-to-real, control\\ \hline 
-         Science, Engineering, Art& Math, Physics, music, animation\\ \hline 
-         Business management& Recommendation, customer management\\ \hline 
-         Computer vision& Recognition, detection, perception\\ \hline 
-         NLP& Sequence generation, translation, dialogue\\\hline
-    \end{tabular}
+    \centering
+    \begin{tabularx}{\textwidth}{|c|c|} \hline
+        \textbf{Domains}& \textbf{Application}\\ \hline 
+             Computer systems& Resources management, security\\ \hline 
+             Education& Educational games, recommendation, estimation\\ \hline 
+             Transportation&Traffic control\\ \hline 
+             Games Development& Board games, card games, video games\\ \hline 
+             Robotics& Sim-to-real, control\\ \hline 
+             Science, Engineering, Art& Math, Physics, music, animation\\ \hline 
+             Business management& Recommendation, customer management\\ \hline 
+             Computer vision& Recognition, detection, perception\\ \hline 
+             NLP& Sequence generation, translation, dialogue\\\hline
+    \end{tabularx}
     \caption{DRL applications across various domains \cite{li2017deep}.}
     \label{tab: DRL applications across various domains.}
 \end{table}
 
-\section{APPLICATIONS OF DRL IN GAMES DEVELOPMENT}
+\section{PLATFORMS FOR GAMING RESEARCH}
+Platforms and contests provide major contributions to the
+evolution of gaming AI and assist in the assessment of agents'
+intelligence. The Arcade Learning Environment (ALE) is the
+first DRL algorithm evaluation platform with an interface to a
+library of Atari 2600 games. Because it shows both game
+frames and signals such as player scores, ALE is a great
+framework. To aid DRL research, OpenAI has included a
+diverse set of reinforcement learning problems onto a platform
+called Gym \cite{brockman2016openai}, Atari, Classical Control, Algorithmic, Board
+games, and robots in both 2D and 3D are commonly seen in
+OpenAI Gym. Then there's OpenAI Universe, a game-based
+framework for testing and training general intelligent agents
+using the required tools. Gym Retro is a video game emulator
+wrapper with the same unified interface as Gym that enables
+Gym to be easily extended with a vast number of video games
+for RL study, including not just Atari but also Nintendo, Sega,
+and NEC.
+
+The objective of General Video Game Playing is to construct
+an agent capable of playing a variety of video games without
+requiring human intervention. The General Video Game AI
+(GVGAI) competition \cite{torrado2018deep} is being presented as a simple and
+open-source platform for assessing AI technologies, including
+DRL.
+
+Malmo \cite{johnson2016malmo}, a research platform for AI studies built on top of
+Minecraft, is a platform for AI research. It is a first-person 3D
+environment for multi-agent research in the Microsoft Malmo
+collaborative AI challenge 2017 and multi-agent RL in the
+MalmO competition 2018. TORCS \cite{espie2005torcs} is a self-driving
+automobile racing simulator using DRL that incorporates both
+low-level and visual components.
+
+\subsection{Atari}
+ALE is a development environment for constructing general
+intelligence agents for hundreds of Atari 2600 games. As the most extensively used DRL research testbed, a wide range of DRL techniques have consistently performed well. Machado et al. investigate the ALE in the DRL research community, presenting a number of assessment methodologies as well as some main issues. Varghese et al experimented with a proposed DRL approach on Atari games in OpenAI Gym \cite{varghese2021hybrid}.
+\subsection{ViZDoom}
+First-person shooter (FPS) games are critical in game AI
+research. Khan et al investigated DQN in FPS. Doom is a classic first-person shooter game, and ViZDoom is
+available as a one-of-a-kind DRL testbed. Agents learn from visual inputs and interact with the ViZDoom world in first-person mode \cite{kempka2016vizdoom}. 
+\subsection{TORCS}
+TORCS is a racing game in which you may steer, brake, and
+accelerate. This game has more realistic graphics than Atari games, but agents must learn the mechanics of the automobile. FIGAR-DDPG may accomplish the racing task and 20 laps of the circuit, with a total reward ten times that of DDPG and significantly smoother policies. Normalized Actor-Critic (NAC) effectively normalizes the Q-function and learns an initial policy network from demonstration before improving it in a real-world environment \cite{gao2018reinforcement}. 
+\subsection{DeepMind}
+DeepMind Lab is a Quake3-based 3D first-person gaming
+platform that has been extended from OpenArena. DeepMind
+Lab has substantially superior visuals and more realistic
+physics than other first-person gaming platforms, making it a lot more complex platform. On a rigorous series of DeepMind lab tests, the UNREAL agent exceeds A3C by a factor of 10, averaging 87 percent expert human performance. Continuous players battle against one another. A team of learning has recently made 9 fast progress as learning agents get more powerful. In the DeepMind lab, Mankowitz et al. investigate an implicit sequence of tasks with sparse rewards at the DeepMind lab to test continuous learning skills \cite{mankowitz2018unicorn}. 
+\subsection{MOBA and Dota2}
+Multiplayer Online Battle Arena (MOBA) games are based on
+real-time strategy in which two teams of five players must work together to beat the opponent by defeating adversaries, upgrading heroes, and eventually destroying the opponent's base. Because MOBA research is still in its early stages, there are less works available than for typical RTS games. King of Glory is the most popular mobile-end MOBA game in China (a simplified mobile version of Dota). In this game, Jiang et al. use Monte-Carlo Tree Search and deep neural networks \cite{jiang2018feedback}. 
 
 
-\section{CHALLENGES AND LIMITATIONS}
-\section{CONCLUSION AND DISCUSSION}
-\section{Acknowledgments}
-The acknowledgments section gives recognition to the individuals or organizations who have contributed to the research by providing support, and guidance during the research process.
+\section{DRL CHALLENGES IN VIDEO GAMES}
+\section{CONCLUSION}
+Game AI with deep reinforcement learning is a challenging
+and promising direction. Recent progress in this domain has promote the development of artificial intelligence research. In this paper, we review the achievements of deep reinforcement learning in video games. Different DRL methods and their successful applications are introduced. These DRL agents achieve human-level or super-human performances in various games, from 2D perfect information to 3D imperfect information, and from single-agent to multi-agent. In addition to these achievements, there are still some major problems when
+applying DRL methods to this field, especially in 3D imperfect information multi-agent video game. A high-level game AI requires to explore more efficient and robust DRL techniques, and needs novel frameworks to be implemented in complex environment. These challenges have not been fully investigated and could be opened for further study in the future.
+
+\section*{ACKNOWLEDGMENT}
+I would like to extend my heartfelt appreciation to Clein Alexander Sarmiento Castrillon for his exceptional guidance, and invaluable supportthroughout the entire process of writing this paper.
+
 \newpage
 \bibliographystyle{apalike}
 \bibliography{references}
