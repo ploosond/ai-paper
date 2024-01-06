@@ -12,6 +12,13 @@ Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang,
 \newblock Openai gym.
 \newblock {\em arXiv preprint arXiv:1606.01540}.
 
+\bibitem[Chen et~al., 2021]{chen2021generative}
+Chen, X., Yao, L., Sun, A., Wang, X., Xu, X., and Zhu, L. (2021).
+\newblock Generative inverse deep reinforcement learning for online
+  recommendation.
+\newblock In {\em Proceedings of the 30th ACM International Conference on
+  Information \& Knowledge Management}, pages 201--210.
+
 \bibitem[Deshai, 2017]{Deshai_2017}
 Deshai, R. (2017).
 \newblock Artificial intelligence (ai).
@@ -77,6 +84,20 @@ Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare,
 Mohammed, M., Khan, M.~B., and Bashier, E. B.~M. (2016).
 \newblock {\em Machine learning: algorithms and applications}.
 \newblock Crc Press.
+
+\bibitem[Qu et~al., 2021]{qu2021dmro}
+Qu, G., Wu, H., Li, R., and Jiao, P. (2021).
+\newblock Dmro: A deep meta reinforcement learning-based task offloading
+  framework for edge-cloud computing.
+\newblock {\em IEEE Transactions on Network and Service Management},
+  18(3):3448--3459.
+
+\bibitem[Raileanu and Fergus, 2021]{raileanu2021decoupling}
+Raileanu, R. and Fergus, R. (2021).
+\newblock Decoupling value and policy for generalization in reinforcement
+  learning.
+\newblock In {\em International Conference on Machine Learning}, pages
+  8787--8798. PMLR.
 
 \bibitem[Sarker et~al., 2020]{sarker2020cybersecurity}
 Sarker, I.~H., Kayes, A., Badsha, S., Alqahtani, H., Watters, P., and Ng, A.

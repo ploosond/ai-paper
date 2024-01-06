@@ -5,7 +5,7 @@
 \small \textbf{\textit{Keywords---}} #1
 }
 
-\title{A study on the use of deep reinforcement learning in games development and its role in in-game character behavior and decision-making.}
+\title{A study on the use of deep reinforcement learning in video games development and its challenges.}
 \author{Prajwol Devkota }
 \date{December 10, 2023}
 
@@ -13,7 +13,7 @@
 
 \maketitle
 \begin{abstract}
-The abstract section provides a summary of the topic, which is \textbf{how can deep reinforcement learning be used in game development, and its role in in-game character behavior and decision-making.} 
+The abstract section provides a summary of the topic, which is \textbf{how can deep reinforcement learning be used in video game development, and its challenges.} 
 \end{abstract}
 
 \keywords {The keywords are the important words found in the research papers, which help other researchers find your paper when researching the relevant topic.}
@@ -57,7 +57,7 @@ AI is accomplished by studying how the human brain thinks, and how humans learn,
 \subsection{Programming Without and With AI}
 The difference between programming with AI and without AI is given below in Fig. \ref{fig: the difference between programming without AI and with AI.}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{image1.jpg}
 \caption{The difference between the programming without AI and with AI\cite{Deshai_2017}.}
@@ -74,7 +74,7 @@ Traditional programming differs significantly from machine learning. In traditio
 
 Machine learning is supposed to overcome this issue. The machine learns how the input and output data are correlated and it writes a rule. The programmers do not need to write new rules each time there is new data. The algorithms adapt in response to new data and experiences to improve efficacy over time.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{image2.png}
 \caption{The traditional programming manual process whereas in machine learning the input data and output are fed to an algorithm to create a program.}
@@ -117,7 +117,7 @@ For example, in a chess game scenario it happens when the bot takes the place of
 \item \textbf{Q-value or action-value} Q Value is a measure of the overall expected reward if the agent (A) is in state (s) and takes action (a), and then plays until the end of the episode according to some policy ($\pi$).
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{image3.png}
 \caption{Agent-environment interaction where the agent receives the rewards upon actions that lead to desired states \cite{sutton2018reinforcement}.}
@@ -133,7 +133,7 @@ Within the machine learning fields, there is an area often referred to as brain-
 Within the domain of neural networks, there is an area called Deep Learning (DL), in which neural networks have more than three layers, i.e. more than one hidden layer. These neural networks used in Deep learning are called Deep Neural Networks (DNNs). DL algorithms are similar to how nervous system structured where each neuron connected each other and passing information. DL models work in layers and a typical model at least have three layers and each layer accepts the information from previous and pass it on to the next one.
 
 Deep learning models tend to perform well with amount of data whereas old machine learning models stops improving after a saturation point.
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{image4.png}
 \caption{Machine learning and deep learning algorithms strategies overview \cite{thakur2021fundamentals}.}
@@ -224,6 +224,60 @@ real-time strategy in which two teams of five players must work together to beat
 
 
 \section{DRL CHALLENGES IN VIDEO GAMES}
+Since DRL has achieved large progress in some video games, it is considered as one of most promising ways to
+realize the artificial general intelligence. However, there are still some challenges should be conquered towards goal.
+
+\subsection{Environment Generalization}
+Intelligent agents' capacity to transmit information
+across diverse settings is seen as a crucial feature. Multi-task
+learning and policy distillation have been focused on these
+instances in order to promote generalization performance in
+different settings. The generalization problem can be
+overcome utilizing common neural network parameters in
+multi-task learning, and efficiency may be boosted by
+transferring across related tasks. Raileanu and Fergus \cite{raileanu2021decoupling} studied the generalization problem by separating the
+optimization of the policy and value function, modeling those
+separately using distinct networks, and imposing a loss that
+promotes the representation to be invariant to environmental
+factors. IMPALA \cite{espie2005torcs} demonstrates the efficacy of multi-task
+reinforcement learning with less data and positive transfer
+between tasks. 
+
+\subsection{Environment Sampling}
+To attain human-level performance, DRL algorithms often
+require millions of samples. Humans, on the other hand, can
+quickly master extremely rewarding environmental behaviors.
+Most model-free DRL algorithms waste a lot of data, especially
+in environments with a lot of dimensions and explore space.
+They must interact with the environment at a high time cost in
+order to seek high reward events in a complicated sample space,
+restricting their applicability to a range of scenarios. Some data
+efficiency strategies, such as hierarchy and demonstration, can
+be used to reduce the exploratory dimension of the environment
+and reduce the amount of time spent on interaction. 
+
+\subsection{Inverse DRL}
+DRL has been effectively applied in domains where the
+reward function is well stated. However, in real-world
+applications, this is limited since it requires information from
+other domains that is not always available. Inverse DRL is a
+unique example of imitation learning. In autonomous driving,
+for example, the reward function should contain all factors such
+as driver behavior, gas usage, time, speed, safety, driving
+quality, and so on. In the real world, controlling all of these
+factors is hard and challenging \cite{chen2021generative}. 
+
+\subsection{Meta DRL}
+Meta Reinforcement Learning, in a nutshell, is metalearning within the context of reinforcement learning. The train
+and test tasks are typically distinct but drawn from the same
+family of problems; for example, experiments in the papers
+included multi-armed bandits with varying reward
+probabilities, mazes with varying layouts, the same robots but
+with varying physical parameters in the simulator, and many
+others. DRL algorithms, as previously stated, take a significant
+amount of experience to learn a single task and are unable to
+generalize the learned policy to fresh tasks \cite{qu2021dmro}. 
+
 \section{CONCLUSION}
 Game AI with deep reinforcement learning is a challenging
 and promising direction. Recent progress in this domain has promote the development of artificial intelligence research. In this paper, we review the achievements of deep reinforcement learning in video games. Different DRL methods and their successful applications are introduced. These DRL agents achieve human-level or super-human performances in various games, from 2D perfect information to 3D imperfect information, and from single-agent to multi-agent. In addition to these achievements, there are still some major problems when

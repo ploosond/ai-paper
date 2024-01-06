@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1704325736 "main.aux" "main.bbl" "main" 1704325745 0
-  "./references.bib" 1704324482 6052 18374983454103a2869004af04d5c5e8 ""
+["bibtex main"] 1704582033 "main.aux" "main.bbl" "main" 1704582283 0
+  "./references.bib" 1704581525 7515 4c2796f3d62f53bfa163dd674623a6e9 ""
   "C:/Users/Prajwol Devkota/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1704325744 5698 da5f4297faee0a529d26e4d622c76c72 "pdflatex"
+  "main.aux" 1704582282 6397 c4250e82e9bd77180e79a3498d6f7836 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1704325736 "c:/Users/Prajwol Devkota/Desktop/Advanced Topics of AI/A study on the use of deep reinforcement learning in game development and its impact on in-game character behavior and decision-making/main.tex" "main.pdf" "main" 1704325745 0
+["pdflatex"] 1704582275 "c:/Users/Prajwol Devkota/Desktop/Advanced Topics of AI/A study on the use of deep reinforcement learning in game development and its impact on in-game character behavior and decision-making/main.tex" "main.pdf" "main" 1704582283 0
   "C:/Users/Prajwol Devkota/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1704320912 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Prajwol Devkota/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1704321515 10472 0a320bb32ebfd2f88dbf4db470e23faa ""
   "C:/Users/Prajwol Devkota/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1704321502 24228785 006022d4cc5cb85ee62ec5233f075605 ""
@@ -54,15 +54,15 @@
   "C:/Users/Prajwol Devkota/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1699552361 29988 6d57d2b884f7464419678df319af86d2 ""
   "C:/Users/Prajwol Devkota/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/Prajwol Devkota/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
-  "c:/Users/Prajwol Devkota/Desktop/Advanced Topics of AI/A study on the use of deep reinforcement learning in game development and its impact on in-game character behavior and decision-making/main.tex" 1704325725 25906 a729f6ec0a14d64df7a6d9beda01da36 ""
+  "c:/Users/Prajwol Devkota/Desktop/Advanced Topics of AI/A study on the use of deep reinforcement learning in game development and its impact on in-game character behavior and decision-making/main.tex" 1704582273 28888 f4004925df4d2151f6d94234453074cb ""
   "image1.jpg" 1704315692 83193 ecdfa8ee09e66d861dc02652f9a15014 ""
   "image2.png" 1704315692 232213 b32c19c7fc3def92ed777dac154a32b3 ""
   "image3.png" 1704315692 1029790 254abb1f3c2cbc5e8b052b068622fe43 ""
   "image4.png" 1704315692 29870 bea7ce2a0691dd4ff57b9695645d921d ""
-  "main.aux" 1704325744 5698 da5f4297faee0a529d26e4d622c76c72 "pdflatex"
-  "main.bbl" 1704325736 5350 4356b932aa79ec585ee7ca1c4450b256 "bibtex main"
-  "main.tex" 1704325725 25906 a729f6ec0a14d64df7a6d9beda01da36 ""
-  "main.toc" 1704325744 1470 804464bddd1ba9772cd2bfb51c28786e "pdflatex"
+  "main.aux" 1704582282 6397 c4250e82e9bd77180e79a3498d6f7836 "pdflatex"
+  "main.bbl" 1704582033 6260 22ed89f9d787a79ed56eb7ecf69366be "bibtex main"
+  "main.tex" 1704582273 28888 f4004925df4d2151f6d94234453074cb ""
+  "main.toc" 1704582282 1747 e2ca50e7f3a2f81c1f1d13fbece82ddc "pdflatex"
   (generated)
   "main.aux"
   "main.log"

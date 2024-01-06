@@ -6,45 +6,45 @@ The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
 Warning--empty institution in espie2005torcs
-You've used 22 entries,
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            589 strings with 7736 characters,
-and the built_in function-call counts, 9830 in all, are:
-= -- 928
-> -- 548
-< -- 12
-+ -- 200
-- -- 194
-* -- 847
-:= -- 1732
-add.period$ -- 68
-call.type$ -- 22
-change.case$ -- 201
-chr.to.int$ -- 22
-cite$ -- 23
-duplicate$ -- 345
-empty$ -- 599
-format.name$ -- 224
-if$ -- 1892
+            605 strings with 8428 characters,
+and the built_in function-call counts, 11518 in all, are:
+= -- 1102
+> -- 617
+< -- 15
++ -- 224
+- -- 218
+* -- 983
+:= -- 1993
+add.period$ -- 78
+call.type$ -- 25
+change.case$ -- 228
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 415
+empty$ -- 718
+format.name$ -- 253
+if$ -- 2248
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 112
-num.names$ -- 66
-pop$ -- 210
+missing$ -- 28
+newline$ -- 127
+num.names$ -- 75
+pop$ -- 241
 preamble$ -- 1
-purify$ -- 205
+purify$ -- 232
 quote$ -- 0
-skip$ -- 260
+skip$ -- 316
 stack$ -- 0
-substring$ -- 563
-swap$ -- 53
-text.length$ -- 5
+substring$ -- 702
+swap$ -- 76
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 122
+type$ -- 140
 warning$ -- 1
-while$ -- 70
+while$ -- 84
 width$ -- 0
-write$ -- 279
+write$ -- 319
 (There was 1 warning)
